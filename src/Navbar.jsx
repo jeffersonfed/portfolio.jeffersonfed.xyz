@@ -4,6 +4,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-scroll";
 import "./CSS Files/Navbar.css";
 import Typewriter from "typewriter-effect/dist/core";
+import Pdf from "./Images/Resume_CV.pdf";
 
 function Navbar() {
   const typewriterRef = useRef(null);
@@ -12,9 +13,9 @@ function Navbar() {
     const typewriter = new Typewriter(typewriterRef.current, {
       strings: [
         "I am a Self-Taught Developer",
-        "I love to study, code and repeat",
+        "I Love to Study, Code and Repeat",
         "Portfolio Under Development",
-        "Please Be Patient!",
+        "Please be Patient!",
       ],
       autoStart: true,
       loop: true,
@@ -38,7 +39,15 @@ function Navbar() {
 
   return (
     <nav id="navbar">
-      
+      <div className="container">
+        <a  className = "Resume" onClick={onResumeClick}>
+          My Resume
+        </a>
+      </div>
+
+      {/* <a href="https://www.linkedin.com/in/akshay-vakil/" target="_blank" className="icons">
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+      </a> */}
       <a href="https://github.com/jeffersonfed" target="_blank" className="icons">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
@@ -59,13 +68,12 @@ function Navbar() {
           <span ref={typewriterRef}></span>
         </h2>
         <p>
-          I'm a self-taught developer, and this portfolio site is currently under development. I will be using React.js or Next.js
+        I'm a self-taught developer, and this portfolio site is currently under development. I will be using React.js or Next.js.
         </p>
-        <h1>Portfolio Under Development</h1>
-
-        {/* <Link to="Contact"  smooth={true} duration={900}>
-          <button>Contact Me</button>
-        </Link> */}
+        <h1>
+          Portfolio Under Development
+        </h1>
+        
       </div>
     </nav>
   );
