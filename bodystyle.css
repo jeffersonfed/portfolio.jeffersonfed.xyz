@@ -39,6 +39,13 @@ body {
     width: 200px;
     border-radius: 100px;
 }
+
+
+details summary b{
+    font-family: "Poppins", sans-serif;
+
+}
+
 .pp-infobox-title-prefix {
     font-weight: 500;
     font-size: 20px;
