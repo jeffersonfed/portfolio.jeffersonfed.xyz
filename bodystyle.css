@@ -175,3 +175,17 @@ details summary b{
     align-items: center;
     justify-content: center;
 }
+.coundown-container{
+    display: flex;
+}
+.countdown-el{
+    text-align: center;
+}
+.big-text{
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+}
