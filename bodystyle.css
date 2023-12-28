@@ -4,6 +4,8 @@ body {
 }
 * {
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
 }
 .maintenance {
     background: linear-gradient(315deg, #ffffff, #d7e1ec);
@@ -182,10 +184,31 @@ details summary b{
     text-align: center;
 }
 .big-text{
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 1;
     margin: 0 2rem;
 }
+
 .countdown-el span{
     font-size: 1.5rem;
+}
+
+.sub-text{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.sneak-peek img {
+    width: 50%;
+    border-radius: 0%;
+    padding-top: 10px;
+}
+.sneak-peek p{
+    text-decoration: underline;
+
+}
+hr.line{
+    border-top: 5px dashed #13c4a5;
+    border-radius: 50%;
+    width: 40%;
 }

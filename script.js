@@ -3,7 +3,7 @@ const days1 =document.querySelector("#days")
 const hours1 =document.querySelector("#hours")
 const minutes1 =document.querySelector("#minutes")
 const seconds1  =document.querySelector("#seconds")
-const newYears = 'Mar 01 2024 00:00:00';
+const newYears = 'Apr 01 2024 00:00:00';
 
 function countdown(){
     const newYearsDate = new Date(newYears);
