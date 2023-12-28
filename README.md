@@ -1,7 +1,5 @@
 <div align="center" id="top">
 
-[![](/../../../../jeffersonfed/jefferson14/blob/main/out/output.svg)](https://links.jeffersonfed.xyz)
-
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&redirect=true)
 
 [![Profile Total Visits](https://komarev.com/ghpvc/?username=jeffersonfed&label=Profile%20Visits&color=13c4a5&style=plastic)](#top)
